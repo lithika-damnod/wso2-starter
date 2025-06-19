@@ -1,6 +1,7 @@
 import ballerinax/mysql;
 import ballerinax/mysql.driver as _;
 
+# Database Client Configuration.
 configurable DatabaseConfig databaseConfig = ?;
 
 final mysql:Client dbClient = check new (
